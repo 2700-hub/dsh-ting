@@ -72,3 +72,8 @@ GTK4 + GStreamer，负责合成、播放、语速、进度、逐句点亮。
 - `ting -s`（截屏 OCR）
 
 所以插件是"更顺"，不是"唯一"。
+
+## 决策记录
+
+- [0001 · 用 TUI 插件，而不是外部脚本](adr/0001-plugin-over-external-script.md)
+- [0002 · 插件与播放器之间用文件 + spawn 交接](adr/0002-text-handoff-by-file.md)

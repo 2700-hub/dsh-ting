@@ -40,7 +40,8 @@ assistant/message ──► 插件 (messages.observe)
                     扬声器：语速 / 进度 / 逐句点亮
 ```
 
-细节见 [docs/DESIGN.md](docs/DESIGN.md)。
+细节见 [docs/DESIGN.md](docs/DESIGN.md)；
+"为什么不用外部脚本""为什么用文件交接"这类取舍记在 [docs/adr/](docs/adr/)。
 
 ## 当前状态
 
