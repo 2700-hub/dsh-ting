@@ -1,0 +1,19 @@
+{
+  "name": "dsh-ting",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "dsh-tui 插件：把每条回答直接送进 ting 播放器朗读",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.10.0"
+  }
+}
