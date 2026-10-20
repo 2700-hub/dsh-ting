@@ -1,5 +1,7 @@
 # 路线图
 
+按天排的学习/开发计划见 [PLAN-10-DAYS.md](PLAN-10-DAYS.md)。
+
 每个里程碑对应一个 GitHub Milestone，下面的条目对应 issue。
 
 ## M0 · 骨架（进行中）

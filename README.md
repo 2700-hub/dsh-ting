@@ -58,7 +58,8 @@ pnpm test
 ```
 
 工作流（分支、提交、PR、评审）见 [docs/WORKFLOW.md](docs/WORKFLOW.md)，
-提交规范见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+提交规范见 [CONTRIBUTING.md](CONTRIBUTING.md)，
+**每天做什么、代码交到哪**见 [docs/PLAN-10-DAYS.md](docs/PLAN-10-DAYS.md)。
 
 ## 许可
 
