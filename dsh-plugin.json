@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dsh-tui-ecosystem/plugin-template/main/dsh-plugin-0.15.schema.json",
+  "manifestVersion": "0.15",
+  "id": "io.github.2700hub.dsh-ting",
+  "name": "dsh-ting",
+  "version": "0.0.1",
+  "license": "MIT",
+  "facets": {
+    "host": {
+      "entry": "./dist/index.js",
+      "apiVersion": "v1"
+    }
+  },
+  "requires": {
+    "contracts": [
+      {
+        "apiVersion": "messages.dsh/v1alpha1",
+        "kind": "MessageObserver"
+      }
+    ]
+  },
+  "permissions": [
+    {
+      "name": "messages.observe.read",
+      "scope": "session",
+      "reason": "读取助手回答的原文，用于送进播放器朗读"
+    }
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "id": "io.github.2700hub.dsh-ting.read-last",
+        "title": "朗读最近一条回答",
+        "description": "把当前会话里最后一条回答交给 ting 播放器"
+      }
+    ]
+  },
+  "subscriptions": [
+    {
+      "apiVersion": "messages.dsh/v1alpha1",
+      "kind": "MessageObserver",
+      "scope": "session"
+    }
+  ]
+}

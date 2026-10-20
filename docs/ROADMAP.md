@@ -8,7 +8,9 @@
 - [x] CI（typecheck + test）
 - [x] issue / PR 模板
 - [x] `docs/DESIGN.md`、`docs/WORKFLOW.md`
-- [ ] 插件入口骨架 + 首个单测
+- [x] 插件入口骨架 + 首个单测
+- [x] `dsh-plugin.json` 清单，通过官方 `parseManifest()` 校验
+- [x] `tsc -p tsconfig.build.json` 产出 `dist/index.js`
 
 ## M1 · 能被加载
 
