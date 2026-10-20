@@ -77,3 +77,7 @@ GTK4 + GStreamer，负责合成、播放、语速、进度、逐句点亮。
 
 - [0001 · 用 TUI 插件，而不是外部脚本](adr/0001-plugin-over-external-script.md)
 - [0002 · 插件与播放器之间用文件 + spawn 交接](adr/0002-text-handoff-by-file.md)
+
+## 参考
+
+实测的清单字段、信封结构、权限与限制，见 [PLUGIN-API-NOTES.md](PLUGIN-API-NOTES.md)。
