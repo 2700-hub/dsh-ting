@@ -39,3 +39,15 @@ test("换了会话也算新", () => {
   const b: Answer = { sessionId: "s2", seq: 1, text: "新会话" };
   assert.equal(isNewer(b, a), true);
 });
+
+test("空字符串还是空字符串", () => {
+  assert.equal(normalizeAnswer(""), "");
+});
+
+test("只有空白就清成空串", () => {
+  assert.equal(normalizeAnswer("  \n\n \t "), "");
+});
+
+test("只有代码块时留一句提示，不返回空", () => {
+  assert.equal(normalizeAnswer("```ts\nconsole.log(1)\n```"), "（这里有一段代码，略过）");
+});
